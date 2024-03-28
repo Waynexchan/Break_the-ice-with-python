@@ -157,3 +157,17 @@ In case of input data being supplied to the question, it should be assumed to be
 
 '''
 
+
+def capitalize():
+    lines = []
+    while True:
+        sentense = input('Enter the sentence: ')
+        if len(sentense) == 0:
+            break
+        lines.append(sentense)
+
+    for line in lines:
+        print(line.upper())
+
+
+capitalize()
