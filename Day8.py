@@ -58,13 +58,31 @@ And add document for your own function
 Hints:
 The built-in document method is __doc__
 '''
-
+''''''
+'''
 def get_value():
-  '''
+  """
   convert input in to a absolute integer
-  '''
+  """
   no = abs(int(input()))
   print(no)
   print(get_value.__doc__)
 
 get_value()
+'''
+'''
+Question:
+Define a class, which have a class parameter and have a same instance parameter.
+
+Hints:
+Define an instance parameter, need add it in __init__ method.You can init an object with construct parameter or set the value later
+
+
+class Animal():
+  def __init__(self,name= None,age= 0):
+    self.name = name
+    self.age = age
+
+x = Animal('John',18)
+print(f'{x.name},{x.age}')
+'''
