@@ -25,3 +25,50 @@ def to_s():
 
 to_s()
 '''
+'''
+Question:
+Define a function that can receive two integer numbers in string form and compute their sum and then print it in console.
+
+Hints:
+Use int() to convert a string to integer.
+
+def to_i():
+  i = int(input())
+  print(i)
+
+to_i()
+'''
+
+'''
+Define a function that can accept two strings as input and concatenate them and then print it in console.
+
+Hints:
+Use + sign to concatenate the strings.
+
+def concatenate():
+  s1,s2 = input(),input()
+  print(s1 + s2)
+
+concatenate()
+'''
+'''
+Question:
+Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print all strings line by line.
+
+Hints:
+Use len() function to get the length of a string.
+
+def length():
+  s1,s2 = input(),input()
+  if len(s1) > len(s2):
+    print(s1)
+  elif len(s2) > len(s1):
+    print(s2)
+  else:
+    print(s1)
+    print(s2)
+
+length()
+'''
+
+  
