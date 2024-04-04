@@ -52,7 +52,7 @@ def even_sqt():
 
 even_sqt()
 '''
-
+'''
 def even_li():
   li=[]
   for i in range(1,21):
@@ -62,3 +62,4 @@ def even_li():
 
 even_li()
 
+'''
