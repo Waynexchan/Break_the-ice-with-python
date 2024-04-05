@@ -6,7 +6,7 @@ def sqt_li():
 sqt_li()
 '''
 
-'''
+
 
 class American():
   @staticmethod
@@ -18,13 +18,13 @@ american.nationality()
 
 American.nationality()
 
-'''
 
-class American():
+
+class American_2():
   def print_nationality(self):
     print('American')
 
-class Newyorker(American):
+class Newyorker(American_2):
   def people(self):
     print('New Yorker')
 
