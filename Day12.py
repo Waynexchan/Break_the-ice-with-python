@@ -1,10 +1,10 @@
-'''
+
 def sqt_li():
   li_obj= map(lambda x : x**2,range(int(input("start: ")),int(input("end: "))) )
   print(list(li_obj))
 
 sqt_li()
-'''
+
 
 
 
