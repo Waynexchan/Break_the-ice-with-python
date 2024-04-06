@@ -29,6 +29,7 @@ r= Rectangle(2,5)
 r.area()
 
 '''
+'''
 class Shape():
   def area(self):
     area = 0
@@ -44,5 +45,7 @@ class Square(Shape):
 
 s= Square(5)
 s.area()
+'''
 
+raise RuntimeError('Sth Wrong')
   
