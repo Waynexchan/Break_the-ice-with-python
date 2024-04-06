@@ -14,6 +14,8 @@ c = Circle(1)
 c.area()
 '''
 
+'''
+
 class Rectangle():
   def __init__(self,length,height):
     self.length = length
@@ -25,3 +27,22 @@ class Rectangle():
 
 r= Rectangle(2,5)
 r.area()
+
+'''
+class Shape():
+  def area(self):
+    area = 0
+    print(area)
+
+class Square(Shape):
+  def __init__(self, l):
+    self.l = l
+
+  def area(self):
+    area = self.l **2
+    print(area)
+
+s= Square(5)
+s.area()
+
+  
