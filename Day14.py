@@ -1,3 +1,4 @@
+import re
 '''
 def test():
   try:
@@ -12,12 +13,12 @@ def test():
 
 test()
 '''
-
+'''
 class CustomException(Exception):
-  '''
+  """
     Attributes:
       message:
-  '''
+  """
   def __init__(self,message):
     self.message = message
 
@@ -30,3 +31,17 @@ try:
     raise CustomException(" num is greater than 10")
 except CustomException as err:
   print('The error raises: '+ err.message)
+
+'''
+
+def check_user():
+  email = input('Please enter email: ')
+  pattern = r'^([^@]+)@(.+)$'
+  match = re.match(pattern,email)
+
+  if match:
+    print(match.group(1))
+  else:
+    print('Not match')
+
+check_user()
