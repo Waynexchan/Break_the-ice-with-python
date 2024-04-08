@@ -15,7 +15,7 @@ def divide_email():
 
 divide_email()
 '''
-
+'''
 def find_num():
   regex = r'\b\d+\b'
   senetence = input('Please enter the sentence: ')
@@ -24,3 +24,13 @@ def find_num():
   print(integer)
 
 find_num()
+'''
+
+def unicode():
+  word = input('Please enter the word: ')
+  uni = u'(word)'
+
+  for character in word:
+    print(f'{character}: {ord(character)}')
+
+unicode()
