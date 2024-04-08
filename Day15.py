@@ -34,10 +34,13 @@ def unicode():
 
 unicode()
 '''
-
+'''
 def convert_u():
   s = input('Please enter the string: ')
   u = s.encode('utf-8')
   print(u)
 
 convert_u()
+'''
+
+# -*- coding: utf-8 -*-
