@@ -47,11 +47,7 @@ convert_u()
 
 '''
 
-def cal():
-  n = int(input('Please enter n: '))
-  total = 0
-  for i in range(1,n+1):
-    total += i/ (i+1)
-  print(round(total, 2))
+def cal(n):
+  print(round(sum(map(lambda x: x/(x+1),range(1, n+1))),2))
 
-cal()
+cal(5)
