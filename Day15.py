@@ -28,7 +28,6 @@ find_num()
 
 def unicode():
   word = input('Please enter the word: ')
-  uni = u'(word)'
 
   for character in word:
     print(f'{character}: {ord(character)}')
