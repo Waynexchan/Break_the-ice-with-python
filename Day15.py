@@ -25,7 +25,7 @@ def find_num():
 
 find_num()
 '''
-
+'''
 def unicode():
   word = input('Please enter the word: ')
 
@@ -33,3 +33,11 @@ def unicode():
     print(f'{character}: {ord(character)}')
 
 unicode()
+'''
+
+def convert_u():
+  s = input('Please enter the string: ')
+  u = s.encode('utf-8')
+  print(u)
+
+convert_u()
