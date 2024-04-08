@@ -42,5 +42,16 @@ def convert_u():
 
 convert_u()
 '''
-
+'''
 # -*- coding: utf-8 -*-
+
+'''
+
+def cal():
+  n = int(input('Please enter n: '))
+  total = 0
+  for i in range(1,n+1):
+    total += i/ (i+1)
+  print(round(total, 2))
+
+cal()
