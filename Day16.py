@@ -33,7 +33,7 @@ def print_flist(n):
 n = int(input('please enter n: '))
 print_flist(n)
 '''
-
+'''
 def even(n):
   i = 0
   while i < n+1:
@@ -48,6 +48,19 @@ for num in even(n):
   li.append(str(num))
 
 print(','.join(li))
+'''
 
+def check(n):
+  i = 0
+  while i < n+1:
+    if i %5 ==0 and i %7 ==0:
+      yield i
+    i+=1
 
+n = int(input())
+li = []
+for num in check(n):
+  li.append(str(num))
+
+print(','.join(li))
     
