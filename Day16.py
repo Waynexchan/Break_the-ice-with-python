@@ -42,6 +42,12 @@ def even(n):
     i+=1
 
 n = int(input())
+
+li=[]
 for num in even(n):
-  print(num)
+  li.append(str(num))
+
+print(','.join(li))
+
+
     
