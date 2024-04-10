@@ -1,3 +1,4 @@
+import random
 '''
 def even():
   s= input()
@@ -18,7 +19,7 @@ def expression():
 
 expression()
 '''
-
+'''
 def binary_search(li,item):
   low = 0
   high = len(li) -1
@@ -36,3 +37,14 @@ def binary_search(li,item):
 
 lst = [1,3,5,7,]
 print(binary_search(lst, 9))   
+'''
+
+'''
+def ran():
+  start = int(input())
+  end = int(input())
+  ran_no = random.uniform(start, end)
+  print(ran_no)
+
+ran()
+'''
