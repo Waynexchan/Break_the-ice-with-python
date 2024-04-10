@@ -48,3 +48,12 @@ def ran():
 
 ran()
 '''
+
+
+def ran():
+  start = int(input())
+  end = int(input())
+  ran_no = random.uniform(start, end)
+  print(ran_no)
+
+ran()
