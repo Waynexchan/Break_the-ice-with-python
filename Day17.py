@@ -9,7 +9,7 @@ def even():
 even()
 '''
 
-
+'''
 def expression():
   expression = input()
   result = eval(expression)
@@ -17,3 +17,22 @@ def expression():
   print(result)
 
 expression()
+'''
+
+def binary_search(li,item):
+  low = 0
+  high = len(li) -1
+
+  while low <= high:
+    mid = round((low + high)/2)
+    if li[mid] ==item:
+      return mid
+    elif li[mid] <= item:
+      low = mid +1
+    else:
+      high = mid -1
+  return None
+
+
+lst = [1,3,5,7,]
+print(binary_search(lst, 9))   
