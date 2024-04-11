@@ -27,6 +27,7 @@ def ran():
 
 ran()
 '''
+'''
 def ran():
   s= int(input())
   e= int(input())
@@ -34,3 +35,13 @@ def ran():
   print(li)
 
 ran()
+'''
+
+def ran():
+  s= int(input())
+  e= int(input())
+  li =random.sample([x for x in range(s,e+1,2) if x %35 ==0],5)
+  print(li)
+
+ran()
+
