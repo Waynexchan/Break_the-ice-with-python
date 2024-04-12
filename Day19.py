@@ -27,3 +27,8 @@ for i in range(100):
 after = datetime.datetime.now()
 execution_time = after - before
 print(execution_time)
+
+
+lst = [3,6,7,8]
+random.shuffle(lst)
+print(lst)
