@@ -32,3 +32,12 @@ print(execution_time)
 lst = [3,6,7,8]
 random.shuffle(lst)
 print(lst)
+
+subjects=["I", "You"]
+verbs=["Play", "Love"]
+objects=["Hockey","Football"]
+
+for sub in subjects:
+    for verb in verbs:
+        for obj in objects:
+            print("{} {} {}".format(sub,verb,obj))
