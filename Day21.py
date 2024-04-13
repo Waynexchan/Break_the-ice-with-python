@@ -18,7 +18,7 @@ s2= set(lib)
 intersection = set.intersection(s1,s2)
 print(intersection)
 '''
-
+'''
 li= [12,24,35,24,88,120,155,88,120,155]
 s1= set(li)
 new_li =[]
@@ -26,3 +26,24 @@ for x in s1:
   new_li.append(x)
 
 print(new_li)
+'''
+
+class Person():
+  def __init__(self ):
+    self.gender ='unknown'
+  def getGender(self):
+    print(self.gender)
+
+class Male(Person):
+  def __init__(self ):
+    self.gender ='Male'
+
+class Female(Person):
+  def __init__(self ):
+    self.gender ='Female'
+
+m=Male()
+f= Female()
+
+m.getGender()
+f.getGender()
