@@ -15,8 +15,13 @@ index = [0, 2, 4, 6]
 new_li = [i for (j, i) in enumerate(li) if j not in index ]
 print(new_li)
 '''
-
+'''
 li= [12,24,35,70,88,120,155]
 index =[2,3,4]
 new_li= [ i for (j, i) in enumerate(li) if j not in index]
 print(new_li)
+'''
+
+li = [[[0 for col in range(8)] for col in range(5)] for col in range(3)]
+
+print(li)
