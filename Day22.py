@@ -20,10 +20,19 @@ def rev():
 
 rev()
 '''
-
+'''
 s= 'H1e2l3l4o5w6o7r8l9d'
 l= s[::2]
 print(l)
+'''
+import itertools
+list = [1,2,3]
+
+permutations = itertools.permutations(list)
+
+for perm in permutations:
+  print(perm)
+
 
 
 
