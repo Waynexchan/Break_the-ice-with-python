@@ -38,3 +38,10 @@ def print_rangoli(size):
 if __name__ == '__main__':
     n = int(input())
     print_rangoli(n)
+
+import calendar
+
+month, day, year = map(int, input().split())
+
+dayId = calendar.weekday(year, month, day)
+print(calendar.day_name[dayId].upper())
